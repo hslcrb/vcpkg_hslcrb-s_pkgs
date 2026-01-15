@@ -15,7 +15,7 @@ Our registry continuously grows with purpose-built libraries for engineering, ma
 | Package | Status | Description |
 | :--- | :--- | :--- |
 | [**Rasberrysoup**](./ports/rasberrysoup) | `v1.0.0` | 🍧 High-performance math keyword library. |
-| *Network Tools* | `Coming Soon` | Advanced socket and protocol utilities. |
+| [**Simplebrowse**](./ports/simplebrowse) | `v1.0.0` | 🌐 Premium C/GTK3 mini browser. |
 | *UI Frame* | `Coming Soon` | Modern glassmorphic interface components. |
 
 ---
@@ -31,7 +31,7 @@ To integrate our professional tools into your C++ project, simply register this 
     {
       "kind": "git",
       "repository": "https://github.com/hslcrb/vcpkg_hslcrb-s_pkgs",
-      "packages": [ "rasberrysoup" ]
+      "packages": [ "rasberrysoup", "simplebrowse" ]
     }
   ]
 }

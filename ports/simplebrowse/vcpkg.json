@@ -1,0 +1,11 @@
+{
+    "name": "simplebrowse",
+    "version": "1.0.0",
+    "description": "A premium mini browser program written in C using GTK3 and libcurl.",
+    "homepage": "https://github.com/hslcrb/Simplebrowse",
+    "maintainer": "Rheehose (Rhee Creative)",
+    "license": "MIT",
+    "dependencies": [
+        "curl"
+    ]
+}
