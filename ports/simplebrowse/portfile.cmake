@@ -1,4 +1,12 @@
-set(SOURCE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../Simplebrowse-src")
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+    REPO hslcrb/vcpkg_hslcrb-s_pkgs
+    REF v1.0.0
+    SHA512 0 # 설치 시도 후 실제 해시값으로 업데이트
+    HEAD_REF main
+)
+
+set(SOURCE_PATH "${SOURCE_PATH}/Simplebrowse-src")
 
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
